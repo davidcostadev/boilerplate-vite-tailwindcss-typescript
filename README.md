@@ -2,10 +2,10 @@
 
 ## 📚 **Project Scripts Guide**
 
-- **`yarn dev`** → Start Vite development server with HMR.
-- **`yarn build`** → Compile TypeScript and build for production with Vite.
-- **`yarn preview`** → Preview the production build locally.
-- **`yarn lint`** → Run ESLint to check code quality.
-- **`yarn format`** → Format code with Prettier.
+- **`pnpm dev`** → Start Vite development server with HMR.
+- **`pnpm build`** → Compile TypeScript and build for production with Vite.
+- **`pnpm preview`** → Preview the production build locally.
+- **`pnpm lint`** → Run ESLint to check code quality.
+- **`pnpm format`** → Format code with Prettier.
 
-Use `yarn lint` and `yarn format` before commits. ✨
+Use `pnpm lint` and `pnpm format` before commits. ✨
