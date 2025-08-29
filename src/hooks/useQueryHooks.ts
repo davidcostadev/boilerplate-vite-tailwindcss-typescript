@@ -25,7 +25,7 @@ export const useEntity = (id: number, options?: UseQueryOptions<Entity>) => {
 };
 
 export const useCreateEntity = (
-  options?: UseMutationOptions<Entity, Error, Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>>
+  options?: UseMutationOptions<Entity, Error, Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>>,
 ) => {
   const queryClient = useQueryClient();
 
@@ -46,7 +46,7 @@ export const useUpdateEntity = (
       id: number;
       entityData: Partial<Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>>;
     }
-  >
+  >,
 ) => {
   const queryClient = useQueryClient();
 

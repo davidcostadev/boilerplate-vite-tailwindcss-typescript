@@ -13,7 +13,7 @@ export const entityService = {
   },
 
   createEntity: async (
-    entityData: Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>
+    entityData: Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>,
   ): Promise<Entity> => {
     const response = await apiClient.post<Entity>('/api/entity', entityData);
     return response.data;
@@ -21,7 +21,7 @@ export const entityService = {
 
   updateEntity: async (
     id: number,
-    entityData: Partial<Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>>
+    entityData: Partial<Omit<Entity, 'id' | 'createdAt' | 'updatedAt'>>,
   ): Promise<Entity> => {
     const response = await apiClient.put<Entity>(`/api/entity/${id}`, entityData);
     return response.data;
