@@ -5,11 +5,12 @@ A modern React application built with TypeScript, Vite, and TailwindCSS.
 ## Tech Stack
 
 - **React** (v19) - A JavaScript library for building user interfaces
-- **TypeScript** (v5.8) - Adds static typing to JavaScript
-- **Vite** (v7) - Next generation frontend tooling
+- **TypeScript** (v6) - Adds static typing to JavaScript
+- **Vite** (v8) - Next generation frontend tooling
 - **TailwindCSS** (v4) - A utility-first CSS framework
 - **React Query** (TanStack Query v5) - Powerful asynchronous state management
 - **Axios** - Promise-based HTTP client
+- **ESLint** (v10) + **Prettier** - Linting and code formatting
 
 ## Getting Started
 
@@ -48,7 +49,8 @@ This will start the application in development mode. Open [http://localhost:5173
 - `pnpm dev` - Start development server
 - `pnpm build` - Build for production
 - `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
+- `pnpm lint` - Run ESLint (with auto-fix)
+- `pnpm format` - Format code with Prettier
 
 ## Project Structure
 
