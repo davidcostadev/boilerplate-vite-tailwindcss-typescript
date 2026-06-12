@@ -10,6 +10,7 @@ A modern React application built with TypeScript, Vite, and TailwindCSS.
 - **TailwindCSS** (v4) - A utility-first CSS framework
 - **React Query** (TanStack Query v5) - Powerful asynchronous state management
 - **Axios** - Promise-based HTTP client
+- **Vitest** (v4) + **Testing Library** - Unit and component testing
 - **ESLint** (v10) + **Prettier** - Linting and code formatting
 
 ## Getting Started
@@ -51,6 +52,8 @@ This will start the application in development mode. Open [http://localhost:5173
 - `pnpm preview` - Preview production build
 - `pnpm lint` - Run ESLint (with auto-fix)
 - `pnpm format` - Format code with Prettier
+- `pnpm test` - Run tests in watch mode
+- `pnpm test:run` - Run tests once
 
 ## Project Structure
 
